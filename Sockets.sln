@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTCPandUDP", "Sockets\ServerTCPandUDP.csproj", "{35C19EE1-CA6F-43B0-A53E-FCBB1FC863C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTCPandUDP", "ClientTCP\ClientTCPandUDP.csproj", "{EAB3A4E0-BB59-4384-A4E0-B0091F58E88A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C19EE1-CA6F-43B0-A53E-FCBB1FC863C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C19EE1-CA6F-43B0-A53E-FCBB1FC863C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C19EE1-CA6F-43B0-A53E-FCBB1FC863C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C19EE1-CA6F-43B0-A53E-FCBB1FC863C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB3A4E0-BB59-4384-A4E0-B0091F58E88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB3A4E0-BB59-4384-A4E0-B0091F58E88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB3A4E0-BB59-4384-A4E0-B0091F58E88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB3A4E0-BB59-4384-A4E0-B0091F58E88A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CFC36F2-D3EB-4AEB-9E31-3B4638C61472}
+	EndGlobalSection
+EndGlobal
